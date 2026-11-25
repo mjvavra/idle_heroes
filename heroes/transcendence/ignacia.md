@@ -1,7 +1,7 @@
 ---
 name: Weaver of Life - Ignacia
 faction: Transcendence
-class: Mage   # the "MAGE" label was partly covered by popups in every screenshot; confirm
+class: Mage
 role: Multi-hit damage / stacking burst (based on skill text)
 patch: in-game skill text, captured 2026-11-24
 last_updated: 2026-11-24

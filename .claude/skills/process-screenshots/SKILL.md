@@ -57,4 +57,7 @@ Add a dated bullet here whenever the user corrects how screenshots are handled, 
 - 2026-11-24: The green resource shown next to gold on the hero screen is probably spirit (unverified). Label it that way until it's confirmed.
 - 2026-11-24: Long skill popups can run past the bottom of the screen (e.g. Madeleine's "Time to Feast!" stops mid-list). Check that each popup ends with a complete sentence and a "Tier X Unlock" line, or is clearly an Active skill. If not, mark the gap with a TODO and ask for a screenshot of the rest.
 - 2026-11-24: The class label (MAGE, PRIEST, ...) on the info panel is often partly covered by the popup. If it's only partly readable, record the most likely class with a "confirm" comment in the frontmatter.
+- 2026-11-24: The user scrolls long popups and takes several overlapping screenshots of one skill. Stitch them together where the text overlaps, and keep each sentence only once.
+- 2026-11-24: Tier = the number of lit purple gems in the info page's Tier row (6 lit = Tier 6). Skill popups dim the gems so they look unlit, so read tier only from a popup-free info page.
+- 2026-11-24: If a skill uses an effect its own popup doesn't define (e.g. Sylvie's Divine Retribution), copy the definition from another hero's popup and note where it came from.
 - 2026-11-24: The user is documenting hero base skills first. Focus on getting skill text complete and accurate before analysis.

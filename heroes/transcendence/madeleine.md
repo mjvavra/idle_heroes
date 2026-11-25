@@ -23,7 +23,7 @@ Deals (1000% of Attack) damage to 3 enemies with the lowest HP and reduces their
 
 - **Frantic Gluttony:** Skill effect. Not stackable. Increases the owner's Attack by 10% and Speed by 12. When granting Frantic Gluttony, if the target receiving it gains new extra effects of the buff, Frantic Gluttony's duration will be refreshed. When the following conditions are met, the target receiving the buff will gain extra effects:
   - If the target's Shield value is equal to or higher than 40% of their Max. HP, increases their Damage Reduction Offset by 10% and All Damage Dealt by 6%.
-  - If the target's Shield value is equal to or higher than 50% of their Max. HP. besides the effects above. **TODO: the popup's text continues past the bottom of the screenshot, so the 50% bonus is missing.**
+  - If the target's Shield value is equal to or higher than 50% of their Max. HP, besides the effects above, additionally increases their All-damage Reduction Offset by 10%; when the owner releases basic attacks or active skills, additionally inflicts damage by 10% of the target's Max. HP (caps at 3000% of the owner's Attack).
 
 ### Passive: Ravenous Hunger (Tier 2 unlock)
 Changes the basic attack to: Deals (1000% of Attack) damage to 2 enemies with the lowest HP, reduces their Damage Reduction by 5% for 2 rounds, and restores self HP by 10% of lost HP.

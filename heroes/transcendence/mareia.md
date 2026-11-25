@@ -1,7 +1,7 @@
 ---
 name: Purifying Tide - Mareia
 faction: Transcendence
-class: Mage   # the "MAGE" label was partly covered by popups; confirm
+class: Mage
 role: AoE damage / Freeze control (based on skill text)
 patch: in-game skill text, captured 2026-11-24
 last_updated: 2026-11-24
