@@ -28,6 +28,13 @@ When asked to "process my screenshots":
 
 General game info (hero skills, tier lists, mode mechanics, events) can be researched on the web. Sources disagree and go stale, so record the source and date in the file's `sources` / `patch` fields, and prefer the newest sources. See `reference/sources.md`.
 
+## Public wiki site
+
+Pushing to `main` publishes the markdown folders as a public, searchable site (GitHub Pages, MkDocs Material) at https://mjvavra.github.io/idle_heroes/. `scripts/assemble_docs.py` gathers the pages; templates, `CLAUDE.md` and screenshots are left out.
+- Everything in the published folders is public. Don't write player IDs, emails or other private details into them.
+- Screenshots are git-ignored and never pushed.
+- To preview locally: `pip install -r requirements-site.txt`, `python scripts/assemble_docs.py`, `mkdocs serve`.
+
 ## Maintaining the repo
 
 - When the player shares new information (new hero pulled, star-up, event results), update `account/roster.md`, and add a dated entry to `logs/decisions.md` if a resource decision was made.

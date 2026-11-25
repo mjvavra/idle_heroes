@@ -4,12 +4,12 @@ A personal knowledge base for Idle Heroes, set up so Claude can read it and give
 
 | Folder | Contents |
 |---|---|
-| [account/](account/) | My profile, goals and hero roster. **Keep this current: it's what makes advice personal.** |
-| [heroes/](heroes/) | One file per hero: role, skills, best uses, artifacts and gear |
-| [game-modes/](game-modes/) | Notes on each mode (Campaign, Arena, Guild Boss, Void, etc.) |
-| [strategies/](strategies/) | Team comps, resource plans and progression guides |
-| [reference/](reference/) | Glossary, faction advantage and general mechanics |
-| [logs/](logs/) | Dated log of decisions and progress |
+| [Profile](account/profile.md) / [Roster](account/roster.md) | My profile, goals and hero roster. **Keep this current: it's what makes advice personal.** |
+| [Heroes](heroes/README.md) | One file per hero: role, skills, best uses, artifacts and gear |
+| [Game modes](game-modes/README.md) | Notes on each mode (Campaign, Arena, Guild Boss, Void, etc.) |
+| [Strategies](strategies/README.md) | Team comps, resource plans and progression guides |
+| [Glossary](reference/glossary.md) / [Sources](reference/sources.md) | Faction advantage, general mechanics and web sources |
+| [Decisions log](logs/decisions.md) | Dated log of decisions and progress |
 
 ## Workflow
 

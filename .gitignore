@@ -1,2 +1,8 @@
 screenshots/inbox/*
 !screenshots/inbox/.gitkeep
+
+# Built wiki site
+_site_src/
+site/
+screenshots/archive/*
+!screenshots/archive/.gitkeep
