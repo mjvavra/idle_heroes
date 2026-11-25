@@ -5,6 +5,7 @@ One file per hero at `heroes/<faction>/<hero-name>.md`, copied from [_TEMPLATE.m
 ## Index
 | Hero | Faction | Role | Last updated |
 |---|---|---|---|
+| [Alikita, Infinite Era](transcendence/alikita.md) | Transcendence | Mage: skills TODO | 2026-11-24 |
 | [Ignacia, Weaver of Life](transcendence/ignacia.md) | Transcendence | Mage: Seed of Life stacks, follow-up attacks, burst | 2026-11-24 |
 | [Lethia, Priestess of the Beyond](transcendence/lethia.md) | Transcendence | Priest: marks, poison, ally buffs | 2026-11-24 |
 | [Madeleine, Star-devouring Bloom](transcendence/madeleine.md) | Transcendence | Priest: shields, self-heal, stun | 2026-11-24 |

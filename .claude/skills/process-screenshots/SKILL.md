@@ -67,4 +67,9 @@ Add a dated bullet here whenever the user corrects how screenshots are handled, 
 - 2026-11-24: Tier = the number of lit purple gems in the info page's Tier row (6 lit = Tier 6). Skill popups dim the gems so they look unlit, so read tier only from a popup-free info page.
 - 2026-11-24: If a skill uses an effect its own popup doesn't define (e.g. Sylvie's Divine Retribution), copy the definition from another hero's popup and note where it came from.
 - 2026-11-24: **Correction from the user:** all screenshots up to this date came from the in-game **Hero Document**, not the user's own heroes. Their stats are reference values (max level/tier) and belong on hero pages, not the roster. The user will send their own roster separately so the two can be compared.
+- 2026-11-24: **How to tell the Hero Document from the player's own hero** (learned from two Alikita screenshots):
+  - *Hero Document:* plain orange star under the name; "LV: 250/250" in normal text; a "Lv. MAX" button under Level up; power in the hundreds of K; no rank badge; one orange tab on the right; 3 icons on the left.
+  - *Player's own hero:* winged star badge with a number (e.g. "13"); LV shown in **purple** (e.g. 100/100); green lock/share/skin buttons; rank badge (e.g. "A-") beside the tier gems; three tabs on the right; power in the millions or billions; red dots under the skill icons; item icons (e.g. a book, a house) at the bottom.
+  - If a screenshot matches neither pattern clearly, **ask the user** before filing it.
+- 2026-11-24: Raw stats on the player's heroes are far higher than the Hero Document's reference stats (Alikita: 4,561M vs 177K power), so don't present raw stat differences as gaps. Compare tier (which skills are unlocked) and the parts of the player's screen that don't appear on the reference screen.
 - 2026-11-24: The user is documenting hero base skills first. Focus on getting skill text complete and accurate before analysis.
