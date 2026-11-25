@@ -9,6 +9,13 @@ This repo stores information about the mobile game **Idle Heroes**: the player's
 3. **Check `strategies/`** for existing team comps and plans before inventing new ones.
 4. **Check `logs/decisions.md`** for past decisions and their reasons so advice stays consistent (e.g. resources already committed to a hero).
 
+## Open questions
+
+`reference/open-questions.md` tracks everything not yet understood: unknown icons, badges, resources, mechanics, terms.
+- Whenever you're unsure what something means (in a screenshot, skill text or conversation), **add a question there and ask the user. Don't guess.** Check that it isn't already listed first.
+- When the user answers, move the question to **Answered** with the answer and date. Then update every affected page (hero, artifact, system, glossary, roster columns, skill rules) and list those pages in the Answered row.
+- Before answering a strategy question, check whether an open question affects the answer, and say so if it does.
+
 ## Accuracy rules
 
 - The game is patched often. Prefer information in this repo over general training knowledge, and note when the repo might be outdated (check `last_updated` / `patch` fields).
@@ -42,6 +49,8 @@ Pushing to `main` publishes the markdown folders as a public, searchable site (G
 
 - When the player shares new information (new hero pulled, star-up, event results), update `account/roster.md`, and add a dated entry to `logs/decisions.md` if a resource decision was made.
 - New heroes: copy `heroes/_TEMPLATE.md` to `heroes/<faction>/<hero-name>.md` (lowercase, hyphenated).
+- New artifacts: copy `artifacts/_TEMPLATE.md` to `artifacts/<artifact-name>.md`.
+- New game systems (star souls, imprints, pets, gear, etc.): copy `systems/_TEMPLATE.md` to `systems/<system-name>.md`.
 - New strategies: copy `strategies/_TEMPLATE.md`.
 - New game modes: copy `game-modes/_TEMPLATE.md`.
 - Keep the index tables in each folder's `README.md` up to date.

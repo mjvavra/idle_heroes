@@ -1,6 +1,6 @@
 ---
 name: process-screenshots
-description: Process Idle Heroes screenshots in screenshots/inbox/ into the knowledge base. Reads every image, writes skill text to hero pages and account data to the roster and profile, archives the images, and publishes the wiki. Use when the user says "process my screenshots", "check the inbox", or adds screenshots of heroes, skills or account screens.
+description: Process Idle Heroes screenshots in screenshots/inbox/ into the knowledge base. Reads every image, writes game data to hero, artifact and system pages and account data to the roster and profile, logs anything unclear as an open question, archives the images, and publishes the wiki. Use when the user says "process my screenshots", "check the inbox", or adds screenshots of heroes, skills, artifacts, star souls or other game screens.
 ---
 
 # Process screenshots
@@ -13,11 +13,14 @@ Turn screenshots in `screenshots/inbox/` into knowledge-base pages, then archive
 2. **Sort and group the images.** First decide where each screenshot comes from. If you can't tell, ask.
    - **Hero Document (in-game encyclopedia):** shows game reference data, i.e. skill text plus stats at max level and tier. This goes on **hero pages only**, never in the roster.
    - **The player's own hero list / hero screens:** shows *their* copy's level, tier, stats and gear. This goes in the **roster** (step 5).
+   - **Artifacts:** go to `artifacts/<artifact-name>.md` (template `artifacts/_TEMPLATE.md`).
+   - **Upgrade systems and mechanics** (star souls, imprints, pets, gear, stones, etc.): go to `systems/<system-name>.md` (template `systems/_TEMPLATE.md`).
    - **Other account screens** (profile, inventory, progress): go to step 5.
 
-   Group screenshots by hero, using the title at the top left (e.g. "Priestess of the Beyond - Lethia"). Usually there's one screenshot per skill popup, plus the info page.
-3. **Write or update each hero page** at `heroes/<faction>/<hero-name>.md`, following the [hero page rules](#hero-page-rules). If the page exists, merge new information into it. Never drop text that's already there unless a screenshot shows it changed (and if it did, say so).
-4. **Update the hero index** in `heroes/README.md` (one row per hero, sorted by name).
+   Group screenshots by subject, using the title at the top left (e.g. "Priestess of the Beyond - Lethia"). Usually there's one screenshot per skill popup, plus the info page.
+3. **Write or update each page** (hero, artifact or system), following the [hero page rules](#hero-page-rules), which also apply to artifacts and systems: copy text word for word, keep analysis separate, never make up numbers. If the page exists, merge new information into it. Never drop text that's already there unless a screenshot shows it changed (and if it did, say so).
+4. **Update the indexes** in `heroes/README.md`, `artifacts/README.md` and `systems/README.md` (one row per page, sorted by name).
+4b. **Log open questions.** For anything you can't identify or interpret (an icon, badge, number, resource, term), add a row to `reference/open-questions.md` instead of guessing. Check it isn't already listed. Also check whether this batch answers any open question; if it does, move it to Answered and update the affected pages.
 5. **Update account files** following the [account data rules](#account-data-rules).
 6. **Archive the images:** move them to `screenshots/archive/YYYY-MM-DD/` (today's date). Screenshots are git-ignored and never pushed.
 7. **Check the build:** run `python scripts/assemble_docs.py` then `mkdocs build --strict` (set `NO_MKDOCS_2_WARNING=1`). If MkDocs isn't installed, create a venv in the scratchpad and `pip install -r requirements-site.txt`. Fix any warnings.
@@ -25,6 +28,7 @@ Turn screenshots in `screenshots/inbox/` into knowledge-base pages, then archive
 9. **Report back:**
    - which heroes or pages you added or updated;
    - anything unreadable, cut off or ambiguous, listed rather than guessed;
+   - new open questions (with their Q numbers), asked directly so the user can answer them;
    - which screenshots would fill the gaps.
 
 ## Hero page rules

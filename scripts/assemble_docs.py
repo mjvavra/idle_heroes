@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "_site_src"
 REPO = "https://github.com/mjvavra/idle_heroes"
-FOLDERS = ["account", "heroes", "game-modes", "strategies", "reference", "logs"]
+FOLDERS = ["account", "heroes", "artifacts", "systems", "game-modes", "strategies", "reference", "logs"]
 
 # Clear old files but keep the folders: OneDrive can lock folders and block rmtree.
 if OUT.exists():

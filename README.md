@@ -5,10 +5,13 @@ A personal knowledge base for Idle Heroes, set up so Claude can read it and give
 | Folder | Contents |
 |---|---|
 | [Profile](account/profile.md) / [Roster](account/roster.md) | My profile, goals and hero roster. **Keep this current: it's what makes advice personal.** |
-| [Heroes](heroes/README.md) | One file per hero: role, skills, best uses, artifacts and gear |
+| [Heroes](heroes/README.md) | One file per hero: skills, reference stats and best uses |
+| [Artifacts](artifacts/README.md) | One file per artifact: effects, levels and which heroes they suit |
+| [Systems](systems/README.md) | Upgrade systems and mechanics: star souls, imprints, pets, gear and more |
 | [Game modes](game-modes/README.md) | Notes on each mode (Campaign, Arena, Guild Boss, Void, etc.) |
 | [Strategies](strategies/README.md) | Team comps, resource plans and progression guides |
 | [Glossary](reference/glossary.md) / [Sources](reference/sources.md) | Faction advantage, general mechanics and web sources |
+| [Open questions](reference/open-questions.md) | Things not yet understood, waiting for an answer |
 | [Decisions log](logs/decisions.md) | Dated log of decisions and progress |
 
 ## Workflow
