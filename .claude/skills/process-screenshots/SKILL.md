@@ -55,4 +55,6 @@ Add a dated bullet here whenever the user corrects how screenshots are handled, 
 - 2026-11-24: Skill popups often cover the hero's tier bar and stats panel. Read the stats from whichever screenshot shows them unobstructed, and ask for a popup-free info-page screenshot if none does.
 - 2026-11-24: Transcendence heroes show the note "You cannot assign multiple Transcendence heroes with the same name in one lineup." Record it once on the hero page as a game rule.
 - 2026-11-24: The green resource shown next to gold on the hero screen is probably spirit (unverified). Label it that way until it's confirmed.
+- 2026-11-24: Long skill popups can run past the bottom of the screen (e.g. Madeleine's "Time to Feast!" stops mid-list). Check that each popup ends with a complete sentence and a "Tier X Unlock" line, or is clearly an Active skill. If not, mark the gap with a TODO and ask for a screenshot of the rest.
+- 2026-11-24: The class label (MAGE, PRIEST, ...) on the info panel is often partly covered by the popup. If it's only partly readable, record the most likely class with a "confirm" comment in the frontmatter.
 - 2026-11-24: The user is documenting hero base skills first. Focus on getting skill text complete and accurate before analysis.
