@@ -15,6 +15,19 @@ This repo stores information about the mobile game **Idle Heroes**: the player's
 - If information in the repo is missing and you fill it in from general knowledge, say so and mark the claim as **unverified**.
 - Never invent exact skill numbers. Leave a `TODO` instead.
 
+## Processing screenshots
+
+When asked to "process my screenshots":
+1. Read every image in `screenshots/inbox/`.
+2. Extract account details (heroes, stars, gear, artifacts, progress, resources) and update `account/roster.md` / `account/profile.md`, setting `last_updated`.
+3. List anything that was unreadable or ambiguous instead of guessing.
+4. Move processed images to `screenshots/archive/YYYY-MM-DD/`.
+5. Summarize what changed.
+
+## Web research
+
+General game info (hero skills, tier lists, mode mechanics, events) can be researched on the web. Sources disagree and go stale, so record the source and date in the file's `sources` / `patch` fields, and prefer the newest sources. See `reference/sources.md`.
+
 ## Maintaining the repo
 
 - When the player shares new information (new hero pulled, star-up, event results), update `account/roster.md`, and add a dated entry to `logs/decisions.md` if a resource decision was made.
