@@ -24,12 +24,7 @@ The player is documenting heroes' base skills first.
 
 ## Processing screenshots
 
-When asked to "process my screenshots":
-1. Read every image in `screenshots/inbox/`.
-2. Extract account details (heroes, stars, gear, artifacts, progress, resources) and update `account/roster.md` / `account/profile.md`, setting `last_updated`.
-3. List anything that was unreadable or ambiguous instead of guessing.
-4. Move processed images to `screenshots/archive/YYYY-MM-DD/`.
-5. Summarize what changed.
+Use the `process-screenshots` skill (`.claude/skills/process-screenshots/SKILL.md`). It has the full process and the screenshot rules. When the user corrects how screenshots are handled, or a new edge case comes up, add a dated bullet to that skill's **Learned rules** section.
 
 ## Web research
 
