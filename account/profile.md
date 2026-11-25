@@ -1,5 +1,5 @@
 ---
-last_updated: YYYY-MM-DD
+last_updated: 2026-11-24
 ---
 
 # Account Profile
@@ -32,4 +32,6 @@ last_updated: YYYY-MM-DD
 - **Heroic scrolls:**
 - **Prophet orbs:**
 - **Spirit / promotion stones / twisted essence:**
+- **Gold:** 34,078.37M (as of 2026-11-24)
+- **Green resource shown next to gold on the hero screen:** 11,430.00M (as of 2026-11-24). Probably spirit, unverified.
 - **Other:**
