@@ -10,7 +10,12 @@ Turn screenshots in `screenshots/inbox/` into knowledge-base pages, then archive
 ## Steps
 
 1. **Load the inbox.** List `screenshots/inbox/` (ignore `.gitkeep`) and read **every** image. If it's empty, say so and stop.
-2. **Group the images.** Usually several screenshots per hero: one per skill popup, plus the info page. Use the hero's title at the top left (e.g. "Priestess of the Beyond - Lethia") to group them. Images that aren't hero pages (profile, inventory, progress screens) go to step 5.
+2. **Sort and group the images.** First decide where each screenshot comes from. If you can't tell, ask.
+   - **Hero Document (in-game encyclopedia):** shows game reference data, i.e. skill text plus stats at max level and tier. This goes on **hero pages only**, never in the roster.
+   - **The player's own hero list / hero screens:** shows *their* copy's level, tier, stats and gear. This goes in the **roster** (step 5).
+   - **Other account screens** (profile, inventory, progress): go to step 5.
+
+   Group screenshots by hero, using the title at the top left (e.g. "Priestess of the Beyond - Lethia"). Usually there's one screenshot per skill popup, plus the info page.
 3. **Write or update each hero page** at `heroes/<faction>/<hero-name>.md`, following the [hero page rules](#hero-page-rules). If the page exists, merge new information into it. Never drop text that's already there unless a screenshot shows it changed (and if it did, say so).
 4. **Update the hero index** in `heroes/README.md` (one row per hero, sorted by name).
 5. **Update account files** following the [account data rules](#account-data-rules).
@@ -26,7 +31,7 @@ Turn screenshots in `screenshots/inbox/` into knowledge-base pages, then archive
 
 - Start from `heroes/_TEMPLATE.md`. File name: hero's short name, lowercase and hyphenated (e.g. `lethia.md`). Folder: faction in lowercase (`shadow`, `fortress`, `abyss`, `forest`, `dark`, `light`, `transcendence`).
 - Use the hero's full in-game title as the page name and the `name` field.
-- **Hero pages hold game information only:** faction, class, skills and mechanics. Your copy's level, tier, stats and gear go in `account/roster.md`.
+- **Hero pages hold game information only:** faction, class, skills, mechanics and the Hero Document's **reference stats** (level, tier, power, HP, Attack, Armor, Speed) in the "Reference stats (Hero Document)" table. The player's own copy goes in `account/roster.md`.
 - **Copy skill text word for word.** Fix only obvious line-break or OCR spacing problems (e.g. "Poisonsthem" → "Poisons them"). Bold the keyword effects (the orange text in the game).
 - For each skill, record:
   - its type (Active / Passive);
@@ -40,7 +45,8 @@ Turn screenshots in `screenshots/inbox/` into knowledge-base pages, then archive
 
 ## Account data rules
 
-- **Roster** (`account/roster.md`): one row per hero, linking to the hero page. Record level, tier or stars, power, HP, Attack, Armor and Speed when they're visible. Note the date.
+- **Roster** (`account/roster.md`): only from the player's own hero screens, **never from the Hero Document**. One row per hero, linking to the hero page. Record level, tier or stars, power, HP, Attack, Armor, Speed and gear when they're visible. Note the date.
+- **Gaps vs. reference:** after updating the roster, compare each hero with the reference stats on their hero page. Note the gap in the roster's "Gaps vs. reference" section, e.g. "Tier 4/6: Tier 6 skill locked; power 150K vs 220K". Mention the biggest gaps in the report.
 - **Profile** (`account/profile.md`): resources shown in the top bar (gold, etc.) with "(as of YYYY-MM-DD)". Update `last_updated`.
 - Only record values you can actually read. If a popup covers part of the page (e.g. the tier bar), mark it `TODO` and mention it in the report.
 
@@ -60,4 +66,5 @@ Add a dated bullet here whenever the user corrects how screenshots are handled, 
 - 2026-11-24: The user scrolls long popups and takes several overlapping screenshots of one skill. Stitch them together where the text overlaps, and keep each sentence only once.
 - 2026-11-24: Tier = the number of lit purple gems in the info page's Tier row (6 lit = Tier 6). Skill popups dim the gems so they look unlit, so read tier only from a popup-free info page.
 - 2026-11-24: If a skill uses an effect its own popup doesn't define (e.g. Sylvie's Divine Retribution), copy the definition from another hero's popup and note where it came from.
+- 2026-11-24: **Correction from the user:** all screenshots up to this date came from the in-game **Hero Document**, not the user's own heroes. Their stats are reference values (max level/tier) and belong on hero pages, not the roster. The user will send their own roster separately so the two can be compared.
 - 2026-11-24: The user is documenting hero base skills first. Focus on getting skill text complete and accurate before analysis.

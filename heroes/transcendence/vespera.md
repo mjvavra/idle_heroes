@@ -15,6 +15,13 @@ A Transcendence Priest who weakens the enemy's strongest hero with **Lethal Ince
 
 > Game rule: you can't put more than one Transcendence hero with the same name in a lineup.
 
+## Reference stats (Hero Document)
+Stats shown in the in-game Hero Document at max level and tier, captured 2026-11-24. Compare against your own copy in the [roster](../../account/roster.md).
+
+| Level | Tier | Power | HP | Attack | Armor | Speed |
+|---|---|---|---|---|---|---|
+| 250/250 | 6 | 197K | 854,700 | 53,561 | 1,554 | 1,289 |
+
 ## Skills
 Skill text copied from the game. The tier at which each skill unlocks is in brackets.
 
@@ -55,7 +62,7 @@ When self takes damage from basic attacks or active skills, there is a 50% chanc
 ## Build
 - **Artifact:** TODO
 - **Gear / stones:** TODO
-- **Your copy's level, tier and stats:** see the [roster](../../account/roster.md)
+- **Your copy's level, tier and stats:** see the [roster](../../account/roster.md) (compare with the reference stats above)
 
 ## Synergies & counters
 - **Pairs well with:** TODO, likely a single high-Attack carry who keeps the Stygian Mark

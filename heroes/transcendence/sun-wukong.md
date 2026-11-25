@@ -15,6 +15,13 @@ A Transcendence Warrior who switches between two modes depending on his HP. In *
 
 > Game rule: you can't put more than one Transcendence hero with the same name in a lineup.
 
+## Reference stats (Hero Document)
+Stats shown in the in-game Hero Document at max level and tier, captured 2026-11-24. Compare against your own copy in the [roster](../../account/roster.md).
+
+| Level | Tier | Power | HP | Attack | Armor | Speed |
+|---|---|---|---|---|---|---|
+| 250/250 | 6 | 215K | 968,660 | 52,991 | 1,554 | 1,280 |
+
 ## Skills
 Skill text copied from the game. The tier at which each skill unlocks is in brackets.
 
@@ -69,7 +76,7 @@ Immune to Shapeshifting. Chases and attacks 2 random enemies when allies release
 ## Build
 - **Artifact:** TODO
 - **Gear / stones:** TODO
-- **Your copy's level, tier and stats:** see the [roster](../../account/roster.md)
+- **Your copy's level, tier and stats:** see the [roster](../../account/roster.md) (compare with the reference stats above)
 
 ## Synergies & counters
 - **Pairs well with:** TODO, likely healers (to trigger Immortal Soul), heroes who act often (for Universe Imitation follow-ups), and Sylvie (Holy Damage and Divine Retribution)

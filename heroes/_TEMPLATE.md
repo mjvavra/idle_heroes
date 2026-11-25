@@ -13,6 +13,13 @@ sources:        # links or "personal testing"
 ## Summary
 One or two sentences: what this hero does and why you'd build them.
 
+## Reference stats (Hero Document)
+Stats shown in the in-game Hero Document at max level and tier. Compare against your own copy in the [roster](../../account/roster.md).
+
+| Level | Tier | Power | HP | Attack | Armor | Speed |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
 ## Skills
 - **Active:**
 - **Passive 1:**

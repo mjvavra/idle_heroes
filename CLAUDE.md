@@ -18,8 +18,9 @@ This repo stores information about the mobile game **Idle Heroes**: the player's
 ## Current focus: hero base skills
 
 The player is documenting heroes' base skills first.
-- Hero pages hold game information only: faction, class, and skill text copied word for word from the game, including the unlock tier and each effect's definition.
-- Account-specific data (level, tier, stats, gear) goes in `account/roster.md`, not in hero pages.
+- Hero pages hold game information only: faction, class, skill text copied word for word from the in-game **Hero Document** (including unlock tier and effect definitions), and the Document's reference stats at max level and tier.
+- The player's own heroes (actual level, tier, stats, gear) go in `account/roster.md`. That data comes from their own hero screens, never from the Hero Document.
+- When advising, compare the player's copy (roster) with the reference stats and the skills locked by tier (hero page). For example, a hero below Tier 6 doesn't have their Tier 6 skill yet.
 - Keep analysis in its own section marked unverified, apart from the copied skill text.
 
 ## Processing screenshots

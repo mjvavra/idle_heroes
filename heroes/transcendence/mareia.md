@@ -15,6 +15,13 @@ A Transcendence Mage who hits many enemies at once. Her basic attack applies **S
 
 > Game rule: you can't put more than one Transcendence hero with the same name in a lineup.
 
+## Reference stats (Hero Document)
+Stats shown in the in-game Hero Document at max level and tier, captured 2026-11-24. Compare against your own copy in the [roster](../../account/roster.md).
+
+| Level | Tier | Power | HP | Attack | Armor | Speed |
+|---|---|---|---|---|---|---|
+| 250/250 | 6 | 188K | 797,720 | 54,131 | 1,554 | 1,294 |
+
 ## Skills
 Skill text copied from the game. The tier at which each skill unlocks is in brackets.
 
@@ -54,7 +61,7 @@ At the end of each round, for every 1 enemy with **Stain** on the battlefield, i
 ## Build
 - **Artifact:** TODO
 - **Gear / stones:** TODO
-- **Your copy's level, tier and stats:** see the [roster](../../account/roster.md)
+- **Your copy's level, tier and stats:** see the [roster](../../account/roster.md) (compare with the reference stats above)
 
 ## Synergies & counters
 - **Pairs well with:** TODO, likely heroes that stun, freeze or otherwise control enemies
