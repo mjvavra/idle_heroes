@@ -15,6 +15,13 @@ This repo stores information about the mobile game **Idle Heroes**: the player's
 - If information in the repo is missing and you fill it in from general knowledge, say so and mark the claim as **unverified**.
 - Never invent exact skill numbers. Leave a `TODO` instead.
 
+## Current focus: hero base skills
+
+The player is documenting heroes' base skills first.
+- Hero pages hold game information only: faction, class, and skill text copied word for word from the game, including the unlock tier and each effect's definition.
+- Account-specific data (level, tier, stats, gear) goes in `account/roster.md`, not in hero pages.
+- Keep analysis in its own section marked unverified, apart from the copied skill text.
+
 ## Processing screenshots
 
 When asked to "process my screenshots":

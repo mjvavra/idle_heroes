@@ -57,8 +57,7 @@ At the start of each battle, she gains **Crimson Soul Pact** until the battle en
 ## Build
 - **Artifact:** TODO
 - **Gear / stones:** TODO
-- **Transcendence tier:** TODO, the screenshots don't clearly show her current tier
-- **Stats (2026-11-24):** Lv 250/250, Power 220K, HP 997,150, Attack 52,991, Armor 1,554, Speed 1,280
+- **Your copy's level, tier and stats:** see the [roster](../../account/roster.md)
 
 ## Synergies & counters
 - **Pairs well with:** heroes that apply DoT (to set off Wailing Soul Mark procs) and durable front-liners (to make the most of Crimson Soul Pact). TODO: name specific heroes once the roster is filled in.
